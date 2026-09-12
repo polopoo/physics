@@ -1,0 +1,63 @@
+{
+  "input_planes": 33,
+  "shape": [
+    128,
+    128,
+    128
+  ],
+  "threshold": 0.15489543974399567,
+  "vertices": 20156,
+  "faces": 40308,
+  "watertight": true,
+  "winding_consistent": true,
+  "connected_components": 1,
+  "bounds": [
+    [
+      36.5,
+      24.500009536743164,
+      30.5
+    ],
+    [
+      92.5,
+      97.5,
+      96.49994659423828
+    ]
+  ],
+  "dimensions_atlas_units": [
+    56.0,
+    72.99999046325684,
+    65.99994659423828
+  ],
+  "volume_atlas_units_cubed": 140687.4442992687,
+  "physical_scale": "unknown; STL is unitless",
+  "linear": {
+    "held_out_slices": 95,
+    "rmse_all": 0.007848165929317474,
+    "rmse_foreground": 0.02412654273211956,
+    "ssim_heldout_mean": 0.9807631033848888,
+    "envelope_dice_vs_algorithm_on_full_atlas": 0.9923522562790418,
+    "measured_plane_max_abs_error": 0.0
+  },
+  "nearest_baseline": {
+    "held_out_slices": 95,
+    "rmse_all": 0.0124845951795578,
+    "rmse_foreground": 0.03859315812587738,
+    "ssim_heldout_mean": 0.9701164825689015,
+    "envelope_dice_vs_algorithm_on_full_atlas": 0.9869381130477736,
+    "measured_plane_max_abs_error": 0.0
+  },
+  "threshold_sensitivity": [
+    {
+      "threshold_factor": 0.85,
+      "foreground_voxels": 146618
+    },
+    {
+      "threshold_factor": 1.0,
+      "foreground_voxels": 140948
+    },
+    {
+      "threshold_factor": 1.15,
+      "foreground_voxels": 129904
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "input_planes": 33,
+  "smoothing_sigma_voxels": 0.45,
+  "threshold": 0.15541338920593262,
+  "closing": false,
+  "fill_holes": false,
+  "cut": "retain x indices 0..64; close interface between 64 and 65",
+  "units": "atlas grid units, not millimeters",
+  "models": {
+    "brain_intensity_surface": {
+      "vertices": 24034,
+      "faces": 48060,
+      "watertight": true,
+      "winding_consistent": true,
+      "surface_components": 4,
+      "volume_grid_units_cubed": 136982.7505236778
+    },
+    "brain_cutaway": {
+      "vertices": 15112,
+      "faces": 30224,
+      "watertight": true,
+      "winding_consistent": true,
+      "surface_components": 1,
+      "volume_grid_units_cubed": 68215.78439316915
+    }
+  }
+}
